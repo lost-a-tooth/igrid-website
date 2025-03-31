@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/iGridAi_logo.png" />
+  <title>About - iGrid AI</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .main_about {
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+    
+    .video-background video {
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+    }
+    
+    .main_about .main__title,
+    .main_about .main__text_pages {
+      color: #ffffff;
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a href="index.html" class="header__logo" style="display: flex; align-items: center;">
+          <img src="img/iGridAi_logo.png" alt="iGrid AI Logo" width="60" height="60" />
+          <span style="margin-left: 10px; font-weight: 700; font-size: 1.5rem;">iGrid AI</span>
+        </a>
+        <div class="header__navigation">
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+                <li class="menu__item"><a href="services.html" class="menu__link">Services</a></li>
+                <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+              </ul>
+              <a href="mailto:sales@igrid.ai?subject=Request%20to%20join%20the%20waitlist&body=Name:%0D%0ACompany:%0D%0AEmail:" class="actions-header__button">Get Started</a>
+            </nav>
+          </div>
+          <div class="header__actions actions-header">
+            <button type="button" class="menu__icon icon-menu"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="page__main main main_about main_pages">
+        <div class="video-background">
+          <video autoplay muted loop playsinline>
+            <source src="video/sf_30fps.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="main__container main__container_pages">
+          <h1 class="main__title">About iGrid AI</h1>
+          <div class="main__text main__text_pages">
+            Transforming enterprise intelligence through AI-powered knowledge integration and collective wisdom
+          </div>
+        </div>
+      </section>
+      <section class="page__about about">
+        <div class="about__container">
+          <div class="about__image"><img src="img/About/About-Our-Mission.jpg" alt="Our Mission" /></div>
+          <div class="about__content">
+            <h2 class="about__title title">Our Vision</h2>
+            <div class="about__text">
+              <p>
+                At its core, iGrid AI leverages advanced artificial intelligence to aggregate and synthesize knowledge from diverse sources: employee inputs, historical data, market trends, and operational metrics. Its intuitive interface allows agents—human or automated—to tap into this shared mind, delivering context-aware solutions and insights.
+              </p>
+              <p>
+                The platform's strength lies in its ability to adapt and scale. It learns from interactions, refines its understanding of the enterprise's needs, and surfaces relevant knowledge at the right moment—much like a flockmind responding to its environment. With features like natural language processing, predictive analytics, and cross-functional data integration, iGrid ensures that wisdom isn't siloed but flows freely.
+              </p>
+            </div>
+            <a href="#" class="about__button button">Schedule a Demo</a>
+          </div>
+        </div>
+      </section>
+      <section class="page__birthday birthday" style="text-align: center; padding: 80px 0; background-color: #f5f5f5;">
+        <div class="birthday__container" style="max-width: 72.624rem; margin: 0 auto; padding: 0 0.938rem;">
+          <h2 class="birthday__title title" style="margin-bottom: 30px;">Happy birthday to this guy</h2>
+          <div class="birthday__image" style="max-width: 400px; margin: 0 auto;">
+            <img src="img/About/AC.jpg" alt="Birthday celebration" style="width: 100%; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);" />
+          </div>
+          <p style="margin-top: 30px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6;">The launching of iGrid AI knowledge sharing platform on this special day is a nod to his willingness to always share with others.</p>
+        </div>
+      </section>
+      <section class="page__outro outro outro_about">
+        <div class="outro__container">
+          <h2 class="outro__title title">Experience the Future of Enterprise Intelligence</h2>
+          <div class="outro__text">
+            Join leading organizations in transforming how knowledge is shared, accessed, and applied across your enterprise with iGrid AI.
+          </div>
+          <a href="#" class="outro__button button">Get Started Today</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="#" class="footer__policy">Privacy Policy – Terms & Conditions</a>
+        <a href="" class="footer__logo" style="display: flex; align-items: center;">
+          <img src="img/iGridAi_logo.png" alt="iGrid AI Logo" width="40" height="40" />
+          <span style="margin-left: 8px; font-weight: 700; font-size: 1.25rem;">iGrid AI</span>
+        </a>
+        <div class="footer__copyright">Copyright © 2025 iGrid AI – All Rights Reserved</div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
